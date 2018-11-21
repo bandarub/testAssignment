@@ -1,2 +1,3 @@
-console.log("connected");
-
+fetch("/orders")
+  .then(res => res.json())
+  .then(data => console.log(data));

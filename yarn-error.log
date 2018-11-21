@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Sravanthi\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Sravanthi\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\Users\Sravanthi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\Sravanthi\AppData\Roaming\npm;C:\Users\Sravanthi\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.22.35:443
+      at Object._errnoException (util.js:1022:11)
+      at _exceptionWithHostPort (util.js:1044:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+
+npm manifest: 
+  {
+    "name": "nps-orders-api",
+    "version": "1.0.0",
+    "description": "Test assignment",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha --timeout 10000",
+      "dev": "nodemon server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://bevgy@bitbucket.org/bevgy/testassignment.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://bitbucket.org/bevgy/testassignment#readme",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "chai": "^4.2.0",
+      "chai-http": "^4.2.0",
+      "express": "^4.16.4",
+      "mongodb": "^3.1.9",
+      "mongoose": "^5.3.12"
+    },
+    "devDependencies": {
+      "mocha": "^5.2.0",
+      "nodemon": "^1.18.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
